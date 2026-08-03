@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import skincare from '../../assets/skincare.png'
 import library from '../../assets/library.png'
 import Quran from '../../assets/Quran.png'
+import nexaAI from '../../assets/nexaAI.jpeg'
 /* ── InView hook ───────────────────────────────────────── */
 function useInView(threshold = 0.1) {
   const ref = useRef(null);
@@ -72,7 +73,7 @@ const projects = [
     title: "Al-Furqan",
     description:
     "AI Furqhan is an AI-powered Islamic application developed using HTML, CSS, JavaScript, Firebase, and Capacitor. The application provides users with easy access to Quran-related features through a clean and responsive interface. It supports AI-powered assistance for answering Islamic questions, includes audio playback, offline support through Progressive Web App (PWA) technology, and can be deployed as both a web application and an Android app. Firebase is used for backend services, while Capacitor enables Android app generation from the web application.",
-    tech: ["HTML,CSS3,javascript,Firebase,Firebase Hosting,Capacitor,Android Studio,Progressive Web App"],
+    tech: ["HTML","CSS3","javascript","Firebase","Android Studio"],
     // github: "#",
     demo: "https://al-furqhan.web.app/index.html",
     gradient: "from-cyan-600/20 via-blue-600/10 to-transparent",
@@ -87,6 +88,28 @@ const projects = [
       </svg>
     ),
   },
+   {
+    id: 4,
+    image:nexaAI,
+    title: "Nexa-AI",
+    description:
+    "Nexa AI is a full-stack AI chatbot web application built with the MERN stack (MongoDB, Express.js, React, and Node.js) and powered by the Google Gemini AI API. It features secure JWT authentication, role-based user and admin dashboards, real-time AI conversations, chat history management, responsive UI with dark/light mode, and an analytics dashboard for monitoring users, conversations, and AI usage. The application is deployed using Vercel (frontend), Render (backend), and MongoDB Atlas for cloud database storage.",
+    tech: ["React", "Node.js", "Express.js", "MongoDB Atlas", "Google Gemini API", "JWT", "Tailwind CSS"," Framer Motion", "Vercel", "Render"],
+    // github: "#",
+    demo: "  https://nexa-ai-jade.vercel.app/",
+    gradient: "from-cyan-600/20 via-blue-600/10 to-transparent",
+    accent: "#6366f1",
+    accentLight: "rgba(99,102,241,0.15)",
+    icon: (
+      <svg viewBox="0 0 48 48" fill="none" className="w-full h-full" aria-hidden="true">
+        <rect x="8" y="14" width="32" height="26" rx="3" fill="rgba(99,102,241,0.2)" stroke="rgba(99,102,241,0.6)" strokeWidth="1.5"/>
+        <path d="M16 14v-3a8 8 0 0116 0v3" stroke="rgba(129,140,248,0.7)" strokeWidth="1.8" strokeLinecap="round"/>
+        <circle cx="24" cy="28" r="5" fill="rgba(99,102,241,0.4)" stroke="rgba(129,140,248,0.7)" strokeWidth="1.2"/>
+        <path d="M24 25v6M21 28h6" stroke="rgba(199,210,254,0.9)" strokeWidth="1.4" strokeLinecap="round"/>
+      </svg>
+    ),
+  },
+
   // {
   //   id: 3,
   //   title: "PharmaCare Ecommerce",
