@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import profilePhoto from "../../assets/linkdlnprofile.jpg";
 
 const socialLinks = [
-  { label: "GitHub", href: "https://github.com/", icon: "github" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/mehrin-t-67611a330/", icon: "linkedin" },
+  { label: "GitHub", href: "https://github.com/mehrin-tech", icon: "github" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/mehrin-t-67611a330", icon: "linkedin" },
   { label: "Email", href: "mailto:meharinmehr2@gmail.com", icon: "email" },
 ];
 
@@ -70,9 +70,7 @@ export default function Home() {
                 View Projects <span className="ml-2" aria-hidden="true">↗</span>
               </a>
               {/* Add your PDF as public/resume.pdf to activate this download link. */}
-              <a href="/resume.pdf" download className="inline-flex min-h-12 items-center justify-center rounded-xl border border-violet-300/30 bg-white/[0.04] px-6 py-3 text-sm font-semibold text-slate-100 transition duration-300 hover:-translate-y-0.5 hover:border-violet-300/60 hover:bg-white/[0.08] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-300">
-                Download Resume <span className="ml-2" aria-hidden="true">↓</span>
-              </a>
+             
               <a href="#contact" onClick={(event) => { event.preventDefault(); scrollTo("contact"); }} className="inline-flex min-h-12 items-center justify-center rounded-xl border border-white/10 px-6 py-3 text-sm font-semibold text-slate-300 transition duration-300 hover:-translate-y-0.5 hover:border-violet-400/50 hover:bg-white/[0.04] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-300">
                 Contact Me <span className="ml-2" aria-hidden="true">→</span>
               </a>
