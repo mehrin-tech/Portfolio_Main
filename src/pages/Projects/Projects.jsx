@@ -431,7 +431,7 @@ export default function Projects() {
           style={{ transitionDelay: "550ms" }}
         >
           <a
-            href="https://github.com/"
+            href="https://github.com/mehrin-tech"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-3 px-7 py-3.5 rounded-2xl

@@ -83,7 +83,7 @@ setLoading(false);
             <div className="mt-10 grid grid-cols-3 gap-4">
 
               <a
-                href="https://github.com/"
+                href="https://github.com/mehrin-tech"
                 target="_blank"
                 className="
                 bg-[#0D0F1A]/80
